@@ -78,7 +78,7 @@ network mIPv6Network
         }
         MN[total_mn]: WirelessHost6 {
             parameters:
-                @display("p=285,156;i=,white");
+                @display("p=174,108;i=,white");
         }
         CN[total_cn]: CorrespondentNode6 {
             @display("p=348,549");
@@ -94,15 +94,6 @@ network mIPv6Network
         hub: EtherHub {
             parameters:
                 @display("p=348,274;i=device/hub_s");
-        }
-        router6: Router6 {
-            @display("p=135,432;b=54,62,rect,white");
-        }
-        etherHub: EtherHub {
-            @display("p=135,527");
-        }
-        correspondentNode6: CorrespondentNode6 {
-            @display("p=135,625");
         }
     connections allowunconnected:
 
@@ -138,8 +129,5 @@ network mIPv6Network
                                                         //AP_3.ethOut++ --> ethernetline --> R_3.ethIn++;
                                                         //AP_3.ethIn++ <-- ethernetline <-- R_3.ethOut++;
 
-        Home_Agent.ethg++ <--> router6.ethg++;
-        router6.ethg++ <--> etherHub.ethg++;
-        etherHub.ethg++ <--> correspondentNode6.ethg++;
 }
 
