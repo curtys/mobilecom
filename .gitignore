@@ -4,5 +4,6 @@ package.ned
 .oppbuildspec
 .gitignore~
 Makefile
+mobilecom
 out/
 
