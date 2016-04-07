@@ -2,3 +2,7 @@ package.ned
 .cproject
 .project
 .oppbuildspec
+.gitignore~
+Makefile
+out/
+
