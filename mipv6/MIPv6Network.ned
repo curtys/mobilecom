@@ -79,7 +79,7 @@ network mIPv6Network
         }
         MN[total_mn]: WirelessHost6 {
             parameters:
-                @display("p=127,189;r=200");
+                @display("p=127,189");
         }
         CN[total_cn]: CorrespondentNode6 {
             @display("p=400,650");
