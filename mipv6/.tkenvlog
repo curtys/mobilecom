@@ -6,3 +6,11 @@ Tcl error: moduleinspector.cc#232: tagOrId "f2" doesn't match any items
 ".network.c raise submodext f2"
 
 
+---- 20160415-10:56:07 ---------------------------------------------------------
+
+
+Tcl error: moduleinspector.cc#232: tagOrId "f2" doesn't match any items
+    while executing
+".inspector0.c raise submodext f2"
+
+

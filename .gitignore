@@ -2,3 +2,9 @@ package.ned
 .cproject
 .project
 .oppbuildspec
+.gitignore~
+Makefile
+mobilecom
+.nedfolders
+out/
+.settings/

@@ -21,7 +21,7 @@
 //
 
 
-package mobilecom.mipv6;
+//package inet.examples.mobileipv6;
 
 import inet.linklayer.ethernet.EtherHub;
 import inet.networklayer.configurator.ipv6.FlatNetworkConfigurator6;
@@ -52,82 +52,64 @@ network mIPv6Network
     parameters:
         double total_mn;
         double total_cn;
-        **.mgmt.numChannels = 5;
+        //**.mgmt.numChannels = 5;
 
-        @display("bgb=1217,788");
+        //@display("bgb=799,698");
+        @display("bgb=800, 800");
     submodules:
         configurator: FlatNetworkConfigurator6 {
             parameters:
-                @display("p=1151,39");
+                @display("p=753,53");
         }
         radioMedium: Ieee80211ScalarRadioMedium {
             parameters:
-                @display("p=1154,123");
+                @display("p=753,123");
         }
         Home_Agent: HomeAgent6 {
             parameters:
-                @display("p=135,227;i=abstract/router");
+                @display("p=250,325;i=abstract/router");
         }
         Foreign_Agent: Router6 {
             parameters:
-                @display("p=566,227");
+                @display("p=550,325");
         }
-        R_1: Router6 {
+        Router: Router6 {
             parameters:
-                @display("p=348,227");
+                @display("p=400,450");
         }
         MN[total_mn]: WirelessHost6 {
             parameters:
-                @display("p=174,108;i=,white");
+                @display("p=127,189;r=200");
         }
         CN[total_cn]: CorrespondentNode6 {
-            @display("p=348,549");
+            @display("p=400,650");
         }
         AP_Home: AccessPoint {
             parameters:
-                @display("p=135,172;i=device/accesspoint_s;r=200");
+                @display("p=250,250;i=device/accesspoint_s;r=200");
         }
-        AP_1: AccessPoint {
+        AP_Foreign: AccessPoint {
             parameters:
-                @display("p=566,172;i=device/accesspoint_s;r=200");
+                @display("p=550,250;i=device/accesspoint_s;r=200");
         }
         hub: EtherHub {
             parameters:
-                @display("p=348,274;i=device/hub_s");
+                @display("p=400,500;i=device/hub_s");
         }
     connections allowunconnected:
 
-                         //Home_Agent.ethOut++ --> ethernetline --> R_1.ethIn++;
-                         //Home_Agent.ethIn++ <-- ethernetline <-- R_1.ethOut++;
-
-        Foreign_Agent.ethg++ <--> ethernetline <--> R_1.ethg++;
-
-                                                       //R_2.ethOut++ --> ethernetline --> R_3.ethIn++;
-                                                       //R_2.ethIn++ <-- ethernetline <-- R_3.ethOut++;
-
-        Home_Agent.ethg$o++ --> ethernetline --> R_1.ethg$i++;
-        Home_Agent.ethg$i++ <-- ethernetline <-- R_1.ethg$o++;
+        Foreign_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
+        Home_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
 
         for i=0..total_cn-1 {
             CN[i].ethg$o++ --> ethernetline --> hub.ethg$i++;
             CN[i].ethg$i++ <-- ethernetline <-- hub.ethg$o++;
         }
 
-        hub.ethg++ <--> ethernetline <--> R_1.ethg++;
-
-                                                    //R_1.ethOut++ --> ethernetline --> CN.ethIn++;
-                                                    //R_1.ethIn++ <-- ethernetline <-- CN.ethOut++;
-
+        hub.ethg++ <--> ethernetline <--> Router.ethg++;
         AP_Home.ethg$o++ --> ethernetline --> Home_Agent.ethg$i++;
         AP_Home.ethg$i++ <-- ethernetline <-- Home_Agent.ethg$o++;
-
-        AP_1.ethg++ <--> ethernetline <--> Foreign_Agent.ethg++;
-
-                                                        //AP_2.ethOut++ --> ethernetline --> R_2.ethIn++;
-                                                        //AP_2.ethIn++ <-- ethernetline <-- R_2.ethOut++;
-
-                                                        //AP_3.ethOut++ --> ethernetline --> R_3.ethIn++;
-                                                        //AP_3.ethIn++ <-- ethernetline <-- R_3.ethOut++;
+        AP_Foreign.ethg++ <--> ethernetline <--> Foreign_Agent.ethg++;
 
 }
 
