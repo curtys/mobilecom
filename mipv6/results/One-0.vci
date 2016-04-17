@@ -1,0 +1,543 @@
+file 87637 1460880428                                           
+version 2
+run One-0-20160417-10:02:55-13313
+attr configname One
+attr datetime 20160417-10:02:55
+attr experiment One
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network mIPv6Network
+attr processid 13313
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1
+
+vector 20  mIPv6Network.Home_Agent.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 24  mIPv6Network.Home_Agent.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 40  mIPv6Network.Home_Agent.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 44  mIPv6Network.Home_Agent.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 64  mIPv6Network.Foreign_Agent.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 68  mIPv6Network.Foreign_Agent.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 84  mIPv6Network.Foreign_Agent.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 88  mIPv6Network.Foreign_Agent.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 108  mIPv6Network.Router.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 112  mIPv6Network.Router.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 128  mIPv6Network.Router.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 132  mIPv6Network.Router.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 148  mIPv6Network.Router.eth[2].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 152  mIPv6Network.Router.eth[2].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 173  mIPv6Network.MN[0].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 198  mIPv6Network.CN[0].eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 202  mIPv6Network.CN[0].eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 211  mIPv6Network.AP_Home.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 224  mIPv6Network.AP_Home.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 228  mIPv6Network.AP_Home.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 237  mIPv6Network.AP_Foreign.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 250  mIPv6Network.AP_Foreign.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 254  mIPv6Network.AP_Foreign.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 169  mIPv6Network.MN[0].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 172  mIPv6Network.MN[0].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 207  mIPv6Network.AP_Home.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 210  mIPv6Network.AP_Home.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 233  mIPv6Network.AP_Foreign.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 236  mIPv6Network.AP_Foreign.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 170  mIPv6Network.MN[0].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 208  mIPv6Network.AP_Home.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 234  mIPv6Network.AP_Foreign.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 205  mIPv6Network.AP_Home.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 204  mIPv6Network.AP_Home.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 209  mIPv6Network.AP_Home.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 78  mIPv6Network.Foreign_Agent.eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 85  mIPv6Network.Foreign_Agent.eth[1].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 87  mIPv6Network.Foreign_Agent.eth[1].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 74  mIPv6Network.Foreign_Agent.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 69  mIPv6Network.Foreign_Agent.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 239  mIPv6Network.AP_Foreign.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 240  mIPv6Network.AP_Foreign.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 231  mIPv6Network.AP_Foreign.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 230  mIPv6Network.AP_Foreign.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 235  mIPv6Network.AP_Foreign.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 34  mIPv6Network.Home_Agent.eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 41  mIPv6Network.Home_Agent.eth[1].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 43  mIPv6Network.Home_Agent.eth[1].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 30  mIPv6Network.Home_Agent.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 25  mIPv6Network.Home_Agent.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 213  mIPv6Network.AP_Home.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 214  mIPv6Network.AP_Home.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 89  mIPv6Network.Router.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title  "DAD started, vector"
+vector 102  mIPv6Network.Router.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 109  mIPv6Network.Router.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 111  mIPv6Network.Router.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 98  mIPv6Network.Router.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 93  mIPv6Network.Router.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 50  mIPv6Network.Foreign_Agent.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 51  mIPv6Network.Foreign_Agent.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 59  mIPv6Network.Foreign_Agent.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 122  mIPv6Network.Router.eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 129  mIPv6Network.Router.eth[1].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 131  mIPv6Network.Router.eth[1].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 118  mIPv6Network.Router.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 113  mIPv6Network.Router.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 6  mIPv6Network.Home_Agent.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 7  mIPv6Network.Home_Agent.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 15  mIPv6Network.Home_Agent.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 142  mIPv6Network.Router.eth[2].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 149  mIPv6Network.Router.eth[2].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 151  mIPv6Network.Router.eth[2].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 138  mIPv6Network.Router.eth[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 0  mIPv6Network.hub  pk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  pk
+attr title  "packets, vector(packetBytes)"
+vector 133  mIPv6Network.Router.eth[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 184  mIPv6Network.CN[0].eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 185  mIPv6Network.CN[0].eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 193  mIPv6Network.CN[0].eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 45  mIPv6Network.Foreign_Agent.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title  "DAD started, vector"
+vector 58  mIPv6Network.Foreign_Agent.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 65  mIPv6Network.Foreign_Agent.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 67  mIPv6Network.Foreign_Agent.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 54  mIPv6Network.Foreign_Agent.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 49  mIPv6Network.Foreign_Agent.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 94  mIPv6Network.Router.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 95  mIPv6Network.Router.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 103  mIPv6Network.Router.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 162  mIPv6Network.MN[0].wlan[0].agent  sentRequest:vector  ETV
+attr title  "sent requests, vector"
+vector 168  mIPv6Network.MN[0].wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 165  mIPv6Network.MN[0].wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 1  mIPv6Network.Home_Agent.networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title  "DAD started, vector"
+vector 14  mIPv6Network.Home_Agent.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 21  mIPv6Network.Home_Agent.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 23  mIPv6Network.Home_Agent.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 10  mIPv6Network.Home_Agent.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 5  mIPv6Network.Home_Agent.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 114  mIPv6Network.Router.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 115  mIPv6Network.Router.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 123  mIPv6Network.Router.eth[1].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 167  mIPv6Network.MN[0].wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 166  mIPv6Network.MN[0].wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 171  mIPv6Network.MN[0].wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 206  mIPv6Network.AP_Home.wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 203  mIPv6Network.AP_Home.wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 158  mIPv6Network.MN[0].networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title  "DAD started, vector"
+vector 179  mIPv6Network.CN[0].networkLayer.neighbourDiscovery  startDAD:vector  ETV
+attr title  "DAD started, vector"
+vector 192  mIPv6Network.CN[0].eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 199  mIPv6Network.CN[0].eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 201  mIPv6Network.CN[0].eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 188  mIPv6Network.CN[0].eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 183  mIPv6Network.CN[0].eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 134  mIPv6Network.Router.eth[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 135  mIPv6Network.Router.eth[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 143  mIPv6Network.Router.eth[2].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 163  mIPv6Network.MN[0].wlan[0].agent  acceptConfirm:vector  ETV
+attr title  "accepted confirms, vector"
+0	20544 49 139 1240 0.083576285191 0.805763042059 2 90 90 180 16200
+1	20593 46 358 358 0.208447097149 0.208447097149 2 1 1 2 2
+5	20639 24 367 367 0.208464297149 0.208464297149 1 82 82 82 6724
+6	20663 24 129 129 0.083573485191 0.083573485191 1 82 82 82 6724
+7	20687 24 129 129 0.083573485191 0.083573485191 1 82 82 82 6724
+10	20711 25 366 366 0.208457097149 0.208457097149 1 82 82 82 6724
+14	20736 25 362 362 0.208457097149 0.208457097149 1 64 64 64 4096
+15	20761 25 130 130 0.083573485191 0.083573485191 1 64 64 64 4096
+20	20786 9 0 0 0 0 1 0 0 0 0
+21	20795 25 364 364 0.208457097149 0.208457097149 1 82 82 82 6724
+23	20820 24 364 364 0.208457097149 0.208457097149 1 0 0 0 0
+24	20844 57 0 364 0 0.208457097149 3 0 1 1 1
+25	20901 736 52 2051 0.047650873539 1.331770431955 29 82 98 2826 275636
+30	21637 736 51 2050 0.047642393539 1.331761951955 29 82 98 2826 275636
+34	22373 736 47 2046 0.047642393539 1.331761951955 29 64 80 2304 183296
+40	23109 9 0 0 0 0 1 0 0 0 0
+41	23118 736 49 2048 0.047642393539 1.331761951955 29 82 98 2826 275636
+43	23854 707 49 2048 0.047642393539 1.331761951955 29 0 0 0 0
+44	24561 1423 0 2048 0 1.331761951955 59 0 1 29 29
+45	25984 48 211 211 0.137049966794 0.137049966794 2 1 1 2 2
+49	26032 25 220 220 0.137067166794 0.137067166794 1 82 82 82 6724
+50	26057 25 117 117 0.083563485191 0.083563485191 1 82 82 82 6724
+51	26082 25 117 117 0.083563485191 0.083563485191 1 82 82 82 6724
+54	26107 25 219 219 0.137059966794 0.137059966794 1 82 82 82 6724
+58	26132 25 215 215 0.137059966794 0.137059966794 1 64 64 64 4096
+59	26157 25 118 118 0.083563485191 0.083563485191 1 64 64 64 4096
+64	26182 9 0 0 0 0 1 0 0 0 0
+65	26191 25 217 217 0.137059966794 0.137059966794 1 82 82 82 6724
+67	26216 24 217 217 0.137059966794 0.137059966794 1 0 0 0 0
+68	26240 57 0 217 0 0.137059966794 3 0 1 1 1
+69	26297 711 27 2027 0.035833285897 1.326682273559 28 82 98 2728 266032
+74	27008 711 26 2026 0.035824805897 1.326673793559 28 82 98 2728 266032
+78	27719 711 22 2022 0.035824805897 1.326673793559 28 64 80 2224 176896
+84	28430 9 0 0 0 0 1 0 0 0 0
+85	28439 711 24 2024 0.035824805897 1.326673793559 28 82 98 2728 266032
+87	29150 683 24 2024 0.035824805897 1.326673793559 28 0 0 0 0
+88	29833 1375 0 2024 0 1.326673793559 57 0 1 28 28
+89	31208 72 106 106 0.083546185191 0.083546185191 3 1 1 3 3
+93	31280 25 116 116 0.083563385191 0.083563385191 1 82 82 82 6724
+94	31305 25 221 221 0.137067266794 0.137067266794 1 82 82 82 6724
+95	31330 25 221 221 0.137067266794 0.137067266794 1 82 82 82 6724
+98	31355 25 115 115 0.083556185191 0.083556185191 1 82 82 82 6724
+102	31380 26 111 111 0.083556185191 0.083556185191 1 64 64 64 4096
+103	31406 26 222 222 0.137067266794 0.137067266794 1 64 64 64 4096
+108	31432 10 0 0 0 0 1 0 0 0 0
+109	31442 26 113 113 0.083556185191 0.083556185191 1 82 82 82 6724
+111	31468 25 113 113 0.083556185191 0.083556185191 1 0 0 0 0
+112	31493 60 0 113 0 0.083556185191 3 0 1 1 1
+113	31553 26 127 127 0.083573385191 0.083573385191 1 82 82 82 6724
+114	31579 26 368 368 0.208464397149 0.208464397149 1 82 82 82 6724
+115	31605 26 368 368 0.208464397149 0.208464397149 1 82 82 82 6724
+118	31631 26 126 126 0.083566185191 0.083566185191 1 82 82 82 6724
+122	31657 26 122 122 0.083566185191 0.083566185191 1 64 64 64 4096
+123	31683 26 369 369 0.208464397149 0.208464397149 1 64 64 64 4096
+128	31709 10 0 0 0 0 1 0 0 0 0
+129	31719 26 124 124 0.083566185191 0.083566185191 1 82 82 82 6724
+131	31745 25 124 124 0.083566185191 0.083566185191 1 0 0 0 0
+132	31770 60 0 124 0 0.083566185191 3 0 1 1 1
+133	31830 26 140 140 0.083583385191 0.083583385191 1 82 82 82 6724
+134	31856 27 1242 1242 0.805770342059 0.805770342059 1 82 82 82 6724
+135	31883 27 1242 1242 0.805770342059 0.805770342059 1 82 82 82 6724
+138	31910 26 138 138 0.083576185191 0.083576185191 1 82 82 82 6724
+142	31936 26 134 134 0.083576185191 0.083576185191 1 64 64 64 4096
+143	31962 27 1243 1243 0.805770342059 0.805770342059 1 64 64 64 4096
+148	31989 10 0 0 0 0 1 0 0 0 0
+149	31999 26 136 136 0.083576185191 0.083576185191 1 82 82 82 6724
+151	32025 25 136 136 0.083576185191 0.083576185191 1 0 0 0 0
+152	32050 60 0 136 0 0.083576185191 3 0 1 1 1
+158	32110 25 973 973 0.612343043741 0.612343043741 1 1 1 1 1
+162	32135 51 275 1261 0.165239371313 0.815239371313 2 1 2 3 5
+163	32186 26 1261 1261 0.815239371313 0.815239371313 1 1 1 1 1
+165	32212 373 340 891 0.199408662707 0.541615363038 14 48 116 1298 132948
+166	32585 268 456 1343 0.265239371313 0.827791371313 10 14 40 332 11488
+167	32853 80 454 1264 0.265239371313 0.815239371313 3 34 40 114 4356
+168	32933 373 340 891 0.199408662707 0.541615363038 14 48 116 1298 132948
+169	33306 536 0 1349 0 0.828119371313 22 0 3 52 134
+170	33842 1226 0 1349 0 0.828119371313 49 0 3 67 151
+171	35068 1032 457 1349 0.265239371313 0.828119371313 40 0 2 40 60
+172	36100 86 0 1265 0 0.815239371313 4 0 2 4 6
+173	36186 3870 0 1353 0 0.828433371313 154 0 3 156 408
+179	40056 26 1232 1232 0.805752942059 0.805752942059 1 1 1 1 1
+183	40082 27 1241 1241 0.805770142059 0.805770142059 1 82 82 82 6724
+184	40109 26 142 142 0.083583585191 0.083583585191 1 82 82 82 6724
+185	40135 26 142 142 0.083583585191 0.083583585191 1 82 82 82 6724
+188	40161 27 1239 1239 0.805762942059 0.805762942059 1 82 82 82 6724
+192	40188 27 1235 1235 0.805762942059 0.805762942059 1 64 64 64 4096
+193	40215 26 143 143 0.083583585191 0.083583585191 1 64 64 64 4096
+198	40241 10 0 0 0 0 1 0 0 0 0
+199	40251 27 1237 1237 0.805762942059 0.805762942059 1 82 82 82 6724
+201	40278 26 1237 1237 0.805762942059 0.805762942059 1 0 0 0 0
+202	40304 62 0 1237 0 0.805762942059 3 0 1 1 1
+203	40366 26 464 464 0.265281857846 0.265281857846 1 40 40 40 1600
+204	40392 1189 9 2057 0.007072488032 1.331770531955 44 48 116 4098 425108
+205	41581 1189 7 2055 0.007072488032 1.331770531955 44 48 116 4098 425108
+206	42770 52 464 490 0.265281857846 0.266150830649 2 14 40 54 1796
+207	42822 2255 0 2064 0 1.331836531955 90 0 3 222 576
+208	45077 2345 0 2064 0 1.331836531955 93 0 3 53 65
+209	47422 4470 10 2064 0.007072488032 1.331836531955 176 0 2 176 264
+210	51892 10 0 0 0 0 1 1 1 1 1
+211	51902 11310 0 2064 0 1.331836531955 448 0 3 710 1954
+213	63212 765 53 2052 0.047650973539 1.331770531955 29 82 98 2826 275636
+214	63977 765 53 2052 0.047650973539 1.331770531955 29 82 98 2826 275636
+224	64742 10 0 0 0 0 1 0 0 0 0
+228	64752 10 0 0 0 0 1 0 0 0 0
+230	64762 1138 33 2072 0.035833385897 1.370814782218 42 48 116 3904 405568
+231	65900 1138 31 2070 0.035833385897 1.370814782218 42 48 116 3904 405568
+233	67038 2131 0 2073 0 1.370814782218 85 0 3 210 546
+234	69169 2121 0 2073 0 1.370814782218 84 0 1 42 42
+235	71290 4221 34 2074 0.035833385897 1.370814782218 166 0 2 167 251
+236	75511 10 0 0 0 0 1 0 0 0 0
+237	75521 10618 0 2073 0 1.370814782218 420 0 3 669 1839
+239	86139 739 28 2028 0.035833385897 1.326682373559 28 82 98 2728 266032
+240	86878 739 28 2028 0.035833385897 1.326682373559 28 82 98 2728 266032
+250	87617 10 0 0 0 0 1 0 0 0 0
+254	87627 10 0 0 0 0 1 0 0 0 0

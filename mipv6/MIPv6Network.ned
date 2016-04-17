@@ -52,13 +52,14 @@ network mIPv6Network
     parameters:
         double total_mn;
         double total_cn;
-        **.mgmt.numChannels = 5;
+        //**.mgmt.numChannels = 5;
 
-        @display("bgb=799,698");
+        //@display("bgb=799,698");
+        @display("bgb=800, 800");
     submodules:
         configurator: FlatNetworkConfigurator6 {
             parameters:
-                @display("p=763,53");
+                @display("p=753,53");
         }
         radioMedium: Ieee80211ScalarRadioMedium {
             parameters:
@@ -66,46 +67,38 @@ network mIPv6Network
         }
         Home_Agent: HomeAgent6 {
             parameters:
-                @display("p=249,229;i=abstract/router");
+                @display("p=250,325;i=abstract/router");
         }
         Foreign_Agent: Router6 {
             parameters:
-                @display("p=566,227");
+                @display("p=550,325");
         }
         Router: Router6 {
             parameters:
-                @display("p=406,355");
+                @display("p=400,450");
         }
         MN[total_mn]: WirelessHost6 {
             parameters:
-                @display("p=220,404");
+                @display("p=127,189;r=200");
         }
         CN[total_cn]: CorrespondentNode6 {
-            @display("p=406,513");
+            @display("p=400,650");
         }
         AP_Home: AccessPoint {
             parameters:
-                @display("p=249,172;i=device/accesspoint_s");
+                @display("p=250,250;i=device/accesspoint_s;r=200");
         }
         AP_Foreign: AccessPoint {
             parameters:
-                @display("p=566,172;i=device/accesspoint_s");
+                @display("p=550,250;i=device/accesspoint_s;r=200");
         }
         hub: EtherHub {
             parameters:
-                @display("p=406,412;i=device/hub_s");
+                @display("p=400,500;i=device/hub_s");
         }
     connections allowunconnected:
 
-                         //Home_Agent.ethOut++ --> ethernetline --> R_1.ethIn++;
-                         //Home_Agent.ethIn++ <-- ethernetline <-- R_1.ethOut++;
-
         Foreign_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
-
-                                                       //R_2.ethOut++ --> ethernetline --> R_3.ethIn++;
-                                                       //R_2.ethIn++ <-- ethernetline <-- R_3.ethOut++;
-
-//        Home_Agent.ethg$o++ --> ethernetline --> Router.ethg$i++;
         Home_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
 
         for i=0..total_cn-1 {
@@ -114,20 +107,9 @@ network mIPv6Network
         }
 
         hub.ethg++ <--> ethernetline <--> Router.ethg++;
-
-                                                    //R_1.ethOut++ --> ethernetline --> CN.ethIn++;
-                                                    //R_1.ethIn++ <-- ethernetline <-- CN.ethOut++;
-
         AP_Home.ethg$o++ --> ethernetline --> Home_Agent.ethg$i++;
         AP_Home.ethg$i++ <-- ethernetline <-- Home_Agent.ethg$o++;
-
         AP_Foreign.ethg++ <--> ethernetline <--> Foreign_Agent.ethg++;
-
-                                                        //AP_2.ethOut++ --> ethernetline --> R_2.ethIn++;
-                                                        //AP_2.ethIn++ <-- ethernetline <-- R_2.ethOut++;
-
-                                                        //AP_3.ethOut++ --> ethernetline --> R_3.ethIn++;
-                                                        //AP_3.ethIn++ <-- ethernetline <-- R_3.ethOut++;
 
 }
 
