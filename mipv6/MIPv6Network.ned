@@ -25,9 +25,11 @@
 
 import inet.linklayer.ethernet.EtherHub;
 import inet.networklayer.configurator.ipv6.FlatNetworkConfigurator6;
+import inet.node.ethernet.Eth100M;
 import inet.node.ipv6.Router6;
 import inet.node.wireless.AccessPoint;
 import inet.node.xmipv6.CorrespondentNode6;
+//import inet.node.xmipv6.ForeignAgent6;
 import inet.node.xmipv6.HomeAgent6;
 import inet.node.xmipv6.WirelessHost6;
 import inet.physicallayer.ieee80211.packetlevel.Ieee80211ScalarRadioMedium;
@@ -69,7 +71,7 @@ network mIPv6Network
             parameters:
                 @display("p=250,325;i=abstract/router");
         }
-        Foreign_Agent: Router6 {
+        Foreign_Agent: ForeignAgent6 {
             parameters:
                 @display("p=550,325");
         }
@@ -77,11 +79,11 @@ network mIPv6Network
             parameters:
                 @display("p=400,450");
         }
-        MN[total_mn]: WirelessHost6 {
+        MN: WirelessHost6 {
             parameters:
-                @display("p=127,189;r=200");
+                @display("p=127,189");
         }
-        CN[total_cn]: CorrespondentNode6 {
+        CN: CorrespondentNode6 {
             @display("p=400,650");
         }
         AP_Home: AccessPoint {
@@ -101,15 +103,17 @@ network mIPv6Network
         Foreign_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
         Home_Agent.ethg++ <--> ethernetline <--> Router.ethg++;
 
-        for i=0..total_cn-1 {
-            CN[i].ethg$o++ --> ethernetline --> hub.ethg$i++;
-            CN[i].ethg$i++ <-- ethernetline <-- hub.ethg$o++;
-        }
+        CN.ethg++ <--> ethernetline <--> hub.ethg++;
+
+//        for i=0..total_cn-1 {
+//            CN[i].ethg$o++ --> ethernetline --> hub.ethg$i++;
+//            CN[i].ethg$i++ <-- ethernetline <-- hub.ethg$o++;
+//        }
 
         hub.ethg++ <--> ethernetline <--> Router.ethg++;
-        AP_Home.ethg$o++ --> ethernetline --> Home_Agent.ethg$i++;
-        AP_Home.ethg$i++ <-- ethernetline <-- Home_Agent.ethg$o++;
+        //        AP_Home.ethg$o++ --> ethernetline --> Home_Agent.ethg$i++;
+        //        AP_Home.ethg$i++ <-- ethernetline <-- Home_Agent.ethg$o++;
+        AP_Home.ethg++ <--> ethernetline <--> Home_Agent.ethg++;
         AP_Foreign.ethg++ <--> ethernetline <--> Foreign_Agent.ethg++;
-
 }
 
