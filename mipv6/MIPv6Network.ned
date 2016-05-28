@@ -61,11 +61,11 @@ network mIPv6Network
     submodules:
         configurator: FlatNetworkConfigurator6 {
             parameters:
-                @display("p=753,53");
+                @display("p=125.424,583.704");
         }
         radioMedium: Ieee80211ScalarRadioMedium {
             parameters:
-                @display("p=753,123");
+                @display("p=125.424,704.304");
         }
         Home_Agent: HomeAgent6 {
             parameters:
