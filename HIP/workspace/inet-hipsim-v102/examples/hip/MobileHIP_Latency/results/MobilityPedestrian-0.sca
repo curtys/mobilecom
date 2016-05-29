@@ -1,0 +1,468 @@
+version 2
+run MobilityPedestrian-0-20160529-11:36:43-6508
+attr configname MobilityPedestrian
+attr datetime 20160529-11:36:43
+attr experiment MobilityPedestrian
+attr inifile C:/Users/Anu/Desktop/MS_Prog/Spring_2016/MobileCommunications/OmnetSim/omnetpp-4.1-src-windows/workspace/inet-hipsim-v102/examples/hip/MobileHIP_Latency/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network HIPWirelessNetwork_Latency
+attr processid 6508
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip 	DISSOCIATED 	292.41057565464
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip.HipFsm 	"UPDATE SENT" 	294.66754563301
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip.HipFsm 	HO_start 	294.66754563301
+scalar HIPWirelessNetwork_Latency.rvs.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	294.6942162295
+scalar HIPWirelessNetwork_Latency.hipsrv.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	294.7042162295
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	294.77713087919
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	294.7846963435
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip.HipFsm 	HO_finish 	294.7846963435
+scalar HIPWirelessNetwork_Latency.rvs.hip.HipFsm 	"UPDATE 3 recieved" 	294.7942162295
+scalar HIPWirelessNetwork_Latency.hipsrv.hip.HipFsm 	"UPDATE 3 recieved" 	294.8142162295
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].queue 	"packets received by queue" 	465
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames sent" 	465
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames rcvd" 	1365
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"bytes sent" 	144060
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"bytes rcvd" 	433348
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames from higher layer" 	465
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames passed up to HL" 	1365
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames/sec sent" 	1.5499992084671
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"frames/sec rcvd" 	4.549997676468
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"bits/sec sent" 	3841.598038224
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"bits/sec rcvd" 	11555.940765433
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"rx channel idle (%)" 	99.988152859383
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"rx channel utilization (%)" 	0.011847140616727
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].encap 	"packets from higher layer" 	465
+scalar HIPWirelessNetwork_Latency.R_3.eth[0].encap 	"frames from MAC" 	1365
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].queue 	"packets received by queue" 	7358
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames sent" 	7358
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames rcvd" 	458
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"bytes sent" 	816900
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"bytes rcvd" 	135296
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames from higher layer" 	7358
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames passed up to HL" 	458
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames/sec sent" 	24.526654141723
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"frames/sec rcvd" 	1.5266658870493
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"bits/sec sent" 	21783.988875644
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"bits/sec rcvd" 	3607.8914909035
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"rx channel idle (%)" 	99.996294401892
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"rx channel utilization (%)" 	0.0037055981076747
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].encap 	"packets from higher layer" 	7358
+scalar HIPWirelessNetwork_Latency.R_3.eth[1].encap 	"frames from MAC" 	458
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].queue 	"packets received by queue" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames sent" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames rcvd" 	39
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"bytes sent" 	4956
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"bytes rcvd" 	10236
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames from higher layer" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames passed up to HL" 	39
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames/sec sent" 	0.069999964253353
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"frames/sec rcvd" 	0.12999993361337
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"bits/sec sent" 	132.15993251033
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"bits/sec rcvd" 	272.95986060851
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"rx channel idle (%)" 	99.999718720144
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"rx channel utilization (%)" 	0.00028127985635976
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].encap 	"packets from higher layer" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[0].encap 	"frames from MAC" 	39
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].queue 	"packets received by queue" 	6028
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames sent" 	6028
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames rcvd" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"bytes sent" 	393532
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"bytes rcvd" 	4536
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames from higher layer" 	6028
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames passed up to HL" 	21
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames/sec sent" 	20.093323072344
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"frames/sec rcvd" 	0.069999964253353
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"bits/sec sent" 	10494.181307638
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"bits/sec rcvd" 	120.95993822979
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"rx channel idle (%)" 	99.999874560064
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"rx channel utilization (%)" 	0.00012543993594201
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].encap 	"packets from higher layer" 	6028
+scalar HIPWirelessNetwork_Latency.R_1.eth[1].encap 	"frames from MAC" 	21
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].queue 	"packets received by queue" 	39
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames sent" 	39
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames rcvd" 	21
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"bytes sent" 	10236
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"bytes rcvd" 	4956
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames from higher layer" 	39
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames passed up to HL" 	21
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames/sec sent" 	0.12999993361337
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"frames/sec rcvd" 	0.069999964253353
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"bits/sec sent" 	272.95986060851
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"bits/sec rcvd" 	132.15993251033
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"rx channel idle (%)" 	99.99986336007
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"rx channel utilization (%)" 	0.00013663993022255
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].encap 	"packets from higher layer" 	39
+scalar HIPWirelessNetwork_Latency.R_2.eth[0].encap 	"frames from MAC" 	21
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].queue 	"packets received by queue" 	1365
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames sent" 	1365
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames rcvd" 	465
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"bytes sent" 	433348
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"bytes rcvd" 	144060
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames from higher layer" 	1365
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames passed up to HL" 	465
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames/sec sent" 	4.549997676468
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"frames/sec rcvd" 	1.5499992084671
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"bits/sec sent" 	11555.940765433
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"bits/sec rcvd" 	3841.598038224
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"rx channel idle (%)" 	99.996059202012
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"rx channel utilization (%)" 	0.0039407979875659
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].encap 	"packets from higher layer" 	1365
+scalar HIPWirelessNetwork_Latency.R_2.eth[1].encap 	"frames from MAC" 	465
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].queue 	"packets received by queue" 	6474
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames sent" 	6474
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames rcvd" 	1409
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"bytes sent" 	532248
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"bytes rcvd" 	443904
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames from higher layer" 	6474
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames passed up to HL" 	1409
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames/sec sent" 	21.57998897982
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"frames/sec rcvd" 	4.6966642682369
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"bits/sec sent" 	14193.272751969
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"bits/sec rcvd" 	11837.433955017
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"rx channel idle (%)" 	99.987861979532
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"rx channel utilization (%)" 	0.012138020468185
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].encap 	"packets from higher layer" 	6474
+scalar HIPWirelessNetwork_Latency.R_2.eth[2].encap 	"frames from MAC" 	1409
+scalar HIPWirelessNetwork_Latency.hipsrv.hip 	"HIP msg counter" 	5
+scalar HIPWirelessNetwork_Latency.hipsrv.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].queue 	"packets received by queue" 	1392
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames sent" 	1392
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames rcvd" 	6482
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"bytes sent" 	442814
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"bytes rcvd" 	532758
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames from higher layer" 	1392
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames dropped (not for us)" 	1
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames passed up to HL" 	6481
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames/sec sent" 	4.639997630508
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"frames/sec rcvd" 	21.606655632868
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"bits/sec sent" 	11808.367303194
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"bits/sec rcvd" 	14206.872745024
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"rx channel idle (%)" 	99.984410301294
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"rx channel utilization (%)" 	0.015589698705528
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].encap 	"packets from higher layer" 	1392
+scalar HIPWirelessNetwork_Latency.hipsrv.eth[0].encap 	"frames from MAC" 	6481
+scalar HIPWirelessNetwork_Latency.dnssrv.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].queue 	"packets received by queue" 	9
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames sent" 	9
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames rcvd" 	7404
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"bytes sent" 	582
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"bytes rcvd" 	827586
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames from higher layer" 	9
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames dropped (not for us)" 	1
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames passed up to HL" 	7403
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames/sec sent" 	0.029999984680009
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"frames/sec rcvd" 	24.679987396754
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"bits/sec sent" 	15.519992074458
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"bits/sec rcvd" 	22068.948730124
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"rx channel idle (%)" 	99.976351532076
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"rx channel utilization (%)" 	0.023648467923516
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].encap 	"packets from higher layer" 	9
+scalar HIPWirelessNetwork_Latency.dnssrv.eth[0].encap 	"frames from MAC" 	7403
+scalar HIPWirelessNetwork_Latency.rvs.hip 	"HIP msg counter" 	5
+scalar HIPWirelessNetwork_Latency.rvs.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].queue 	"packets received by queue" 	11
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames sent" 	11
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames rcvd" 	7403
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"bytes sent" 	704
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"bytes rcvd" 	827516
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames from higher layer" 	11
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames passed up to HL" 	7403
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames/sec sent" 	0.036666647942233
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"frames/sec rcvd" 	24.676654065123
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"bits/sec sent" 	18.773323746423
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"bits/sec rcvd" 	22067.082064411
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"rx channel idle (%)" 	99.976353612075
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"rx channel utilization (%)" 	0.023646387924579
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].encap 	"packets from higher layer" 	11
+scalar HIPWirelessNetwork_Latency.rvs.eth[0].encap 	"frames from MAC" 	7403
+scalar HIPWirelessNetwork_Latency.AP_Home.relayUnit 	"processed frames" 	7816
+scalar HIPWirelessNetwork_Latency.AP_Home.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.wlan.mgmt 	"packets received by queue" 	10818
+scalar HIPWirelessNetwork_Latency.AP_Home.wlan.mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames sent" 	458
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames rcvd" 	7358
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"bytes sent" 	135296
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"bytes rcvd" 	816900
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames from higher layer" 	458
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames passed up to HL" 	7358
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames/sec sent" 	1.5266658870493
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"frames/sec rcvd" 	24.526654141723
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"bits/sec sent" 	3607.8914909035
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"bits/sec rcvd" 	21783.988875644
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"rx channel idle (%)" 	99.976646305259
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"rx channel utilization (%)" 	0.023353694740714
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.AP_Home.eth[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.AP_1.relayUnit 	"processed frames" 	6049
+scalar HIPWirelessNetwork_Latency.AP_1.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.wlan.mgmt 	"packets received by queue" 	9053
+scalar HIPWirelessNetwork_Latency.AP_1.wlan.mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames sent" 	21
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames rcvd" 	6028
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"bytes sent" 	4536
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"bytes rcvd" 	393532
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames from higher layer" 	21
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames passed up to HL" 	6028
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames/sec sent" 	0.069999964253353
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"frames/sec rcvd" 	20.093323072344
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"bits/sec sent" 	120.95993822979
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"bits/sec rcvd" 	10494.181307638
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"rx channel idle (%)" 	99.988219846016
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"rx channel utilization (%)" 	0.011780153984268
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.AP_1.eth[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.switch.relayUnit 	"processed frames" 	7886
+scalar HIPWirelessNetwork_Latency.switch.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames sent" 	6482
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames rcvd" 	1392
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"bytes sent" 	532758
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"bytes rcvd" 	442814
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames from higher layer" 	6482
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames passed up to HL" 	1392
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames/sec sent" 	21.606655632868
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"frames/sec rcvd" 	4.639997630508
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"bits/sec sent" 	14206.872745024
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"bits/sec rcvd" 	11808.367303194
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"rx channel idle (%)" 	99.987894672848
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"rx channel utilization (%)" 	0.012105327151547
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames sent" 	7404
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames rcvd" 	9
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"bytes sent" 	827586
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"bytes rcvd" 	582
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames from higher layer" 	7404
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames passed up to HL" 	9
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames/sec sent" 	24.679987396754
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"frames/sec rcvd" 	0.029999984680009
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"bits/sec sent" 	22068.948730124
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"bits/sec rcvd" 	15.519992074458
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"rx channel idle (%)" 	99.999982560009
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"rx channel utilization (%)" 	1.7439991093978e-005
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[1] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames sent" 	7403
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames rcvd" 	11
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"bytes sent" 	827516
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"bytes rcvd" 	704
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames from higher layer" 	7403
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames passed up to HL" 	11
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames/sec sent" 	24.676654065123
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"frames/sec rcvd" 	0.036666647942233
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"bits/sec sent" 	22067.082064411
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"bits/sec rcvd" 	18.773323746423
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"rx channel idle (%)" 	99.999978880011
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"rx channel utilization (%)" 	2.1119989214726e-005
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[2] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames sent" 	1409
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames rcvd" 	6474
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"bytes sent" 	443904
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"bytes rcvd" 	532248
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames from higher layer" 	1409
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames passed up to HL" 	6474
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames/sec sent" 	4.6966642682369
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"frames/sec rcvd" 	21.57998897982
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"bits/sec sent" 	11837.433955017
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"bits/sec rcvd" 	14193.272751969
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"rx channel idle (%)" 	99.984425607953
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"rx channel utilization (%)" 	0.015574392046678
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	collisions 	0
+scalar HIPWirelessNetwork_Latency.switch.mac[3] 	backoffs 	0
+scalar HIPWirelessNetwork_Latency.mobilehiphost.udpApp[0] 	"packets sent" 	459
+scalar HIPWirelessNetwork_Latency.mobilehiphost.udpApp[0] 	"packets recieved" 	1361
+scalar HIPWirelessNetwork_Latency.mobilehiphost.udpApp[0] 	"packets lost" 	4294966394
+scalar HIPWirelessNetwork_Latency.mobilehiphost.hip 	"HIP msg counter" 	8
+scalar HIPWirelessNetwork_Latency.mobilehiphost.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	ScanRequest_Time 	292.41057565464
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	DissassociateReq_Time 	0
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	AssociateReq_Time 	293.0637414624
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	AuthenticateReq_Time 	293.06057565464
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	AssociateConf_Time 	293.06510447525
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	AuthenticateConf_Time 	293.0637414624
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	ScanConfirm_Time 	293.06057565464
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	SCAN_DELAY 	0.65
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	AUTHENTICATE_DELAY 	0.003165807768
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	ASSOCIATE_DELAY 	0.001363012846
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.agent 	L2_HO_DELAY 	0.654528820614
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.mgmt 	"packets received by queue" 	634
+scalar HIPWirelessNetwork_Latency.mobilehiphost.wlan.mgmt 	"packets dropped by queue" 	0

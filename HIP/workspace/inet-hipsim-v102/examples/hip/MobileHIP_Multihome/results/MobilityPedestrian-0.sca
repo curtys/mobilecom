@@ -1,0 +1,493 @@
+version 2
+run MobilityPedestrian-0-20160529-11:40:32-3144
+attr configname MobilityPedestrian
+attr datetime 20160529-11:40:32
+attr experiment MobilityPedestrian
+attr inifile C:/Users/Anu/Desktop/MS_Prog/Spring_2016/MobileCommunications/OmnetSim/omnetpp-4.1-src-windows/workspace/inet-hipsim-v102/examples/hip/MobileHIP_Multihome/omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network HIPWirelessNetwork_Multihome
+attr processid 3144
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE SENT" 	258.0638270029
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	HO_start 	258.0638270029
+scalar HIPWirelessNetwork_Multihome.rvs.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	258.07442479684
+scalar HIPWirelessNetwork_Multihome.hipsrv.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	258.08442479684
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	258.10473104896
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	258.11473104896
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	HO_finish 	258.11473104896
+scalar HIPWirelessNetwork_Multihome.rvs.hip.HipFsm 	"UPDATE 3 recieved" 	258.12442479684
+scalar HIPWirelessNetwork_Multihome.hipsrv.hip.HipFsm 	"UPDATE 3 recieved" 	258.13442479684
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip 	DISSOCIATED 	292.33502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip 	DISSOCIATED 	292.33502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE SENT" 	292.33502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	HO_start 	292.33502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE SENT" 	292.74019331756
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	HO_start 	292.74019331756
+scalar HIPWirelessNetwork_Multihome.rvs.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	292.78150910781
+scalar HIPWirelessNetwork_Multihome.hipsrv.hip.HipFsm 	"UPDATE 1 recieved, UPDATE 2 sent" 	292.79150910781
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	292.85453742182
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	"UPDATE 2 recieved, UPDATE 3 sent" 	292.86202286946
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip.HipFsm 	HO_finish 	292.86202286946
+scalar HIPWirelessNetwork_Multihome.rvs.hip.HipFsm 	"UPDATE 3 recieved" 	292.87154274781
+scalar HIPWirelessNetwork_Multihome.hipsrv.hip.HipFsm 	"UPDATE 3 recieved" 	292.89154274781
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].queue 	"packets received by queue" 	473
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames sent" 	473
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames rcvd" 	1355
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"bytes sent" 	144572
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"bytes rcvd" 	429612
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames from higher layer" 	473
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames passed up to HL" 	1355
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames/sec sent" 	1.576665861516
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"frames/sec rcvd" 	4.5166643601569
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"bits/sec sent" 	3855.2513645851
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"bits/sec rcvd" 	11456.314149643
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"rx channel idle (%)" 	99.988254619331
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"rx channel utilization (%)" 	0.011745380668693
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].encap 	"packets from higher layer" 	473
+scalar HIPWirelessNetwork_Multihome.R_3.eth[0].encap 	"frames from MAC" 	1355
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].queue 	"packets received by queue" 	7360
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames sent" 	7360
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames rcvd" 	462
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"bytes sent" 	813932
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"bytes rcvd" 	135456
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames from higher layer" 	7360
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames passed up to HL" 	462
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames/sec sent" 	24.533320804985
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"frames/sec rcvd" 	1.5399992135738
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"bits/sec sent" 	21704.842249394
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"bits/sec rcvd" 	3612.1581553913
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"rx channel idle (%)" 	99.996289281895
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"rx channel utilization (%)" 	0.0037107181050601
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].encap 	"packets from higher layer" 	7360
+scalar HIPWirelessNetwork_Multihome.R_3.eth[1].encap 	"frames from MAC" 	462
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].queue 	"packets received by queue" 	21
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames sent" 	21
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames rcvd" 	47
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"bytes sent" 	4956
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"bytes rcvd" 	13844
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames from higher layer" 	21
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames passed up to HL" 	47
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames/sec sent" 	0.069999964253353
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"frames/sec rcvd" 	0.15666658666227
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"bits/sec sent" 	132.15993251033
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"bits/sec rcvd" 	369.17314480892
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"rx channel idle (%)" 	99.999620800194
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"rx channel utilization (%)" 	0.00037919980635531
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].encap 	"packets from higher layer" 	21
+scalar HIPWirelessNetwork_Multihome.R_1.eth[0].encap 	"frames from MAC" 	47
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].queue 	"packets received by queue" 	6046
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames sent" 	6046
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames rcvd" 	19
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"bytes sent" 	397780
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"bytes rcvd" 	4456
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames from higher layer" 	6046
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames passed up to HL" 	19
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames/sec sent" 	20.153323041704
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"frames/sec rcvd" 	0.063333300991129
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"bits/sec sent" 	10607.46124979
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"bits/sec rcvd" 	118.82660598588
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"rx channel idle (%)" 	99.999877120063
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"rx channel utilization (%)" 	0.00012287993724932
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].encap 	"packets from higher layer" 	6046
+scalar HIPWirelessNetwork_Multihome.R_1.eth[1].encap 	"frames from MAC" 	19
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].queue 	"packets received by queue" 	47
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames sent" 	47
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames rcvd" 	21
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"bytes sent" 	13844
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"bytes rcvd" 	4956
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames from higher layer" 	47
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames passed up to HL" 	21
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames/sec sent" 	0.15666658666227
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"frames/sec rcvd" 	0.069999964253353
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"bits/sec sent" 	369.17314480892
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"bits/sec rcvd" 	132.15993251033
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"rx channel idle (%)" 	99.99986336007
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"rx channel utilization (%)" 	0.00013663993022255
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].encap 	"packets from higher layer" 	47
+scalar HIPWirelessNetwork_Multihome.R_2.eth[0].encap 	"frames from MAC" 	21
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].queue 	"packets received by queue" 	1355
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames sent" 	1355
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames rcvd" 	473
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"bytes sent" 	429612
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"bytes rcvd" 	144572
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames from higher layer" 	1355
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames passed up to HL" 	473
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames/sec sent" 	4.5166643601569
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"frames/sec rcvd" 	1.576665861516
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"bits/sec sent" 	11456.314149643
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"bits/sec rcvd" 	3855.2513645851
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"rx channel idle (%)" 	99.99604384202
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"rx channel utilization (%)" 	0.0039561579797221
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].encap 	"packets from higher layer" 	1355
+scalar HIPWirelessNetwork_Multihome.R_2.eth[1].encap 	"frames from MAC" 	473
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].queue 	"packets received by queue" 	6519
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames sent" 	6519
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames rcvd" 	1411
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"bytes sent" 	535128
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"bytes rcvd" 	444032
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames from higher layer" 	6519
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames passed up to HL" 	1411
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames/sec sent" 	21.72998890322
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"frames/sec rcvd" 	4.7033309314991
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"bits/sec sent" 	14270.07271275
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"bits/sec rcvd" 	11840.847286608
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"rx channel idle (%)" 	99.987858139534
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"rx channel utilization (%)" 	0.012141860466224
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].encap 	"packets from higher layer" 	6519
+scalar HIPWirelessNetwork_Multihome.R_2.eth[2].encap 	"frames from MAC" 	1411
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.udpApp[0] 	"packets sent" 	459
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.udpApp[0] 	"packets recieved" 	1373
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.udpApp[0] 	"packets lost" 	4294966382
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.hip 	"HIP msg counter" 	14
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	ScanRequest_Time 	299.93502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	DissassociateReq_Time 	0
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	AssociateReq_Time 	35.834655997629
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	AuthenticateReq_Time 	35.830829011113
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	AssociateConf_Time 	35.83619244768
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	AuthenticateConf_Time 	35.834655997629
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	ScanConfirm_Time 	35.830829011113
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	SCAN_DELAY 	-264.10419547976
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	AUTHENTICATE_DELAY 	0.003826986516
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	ASSOCIATE_DELAY 	0.001536450051
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].agent 	L2_HO_DELAY 	-264.09883204319
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].mgmt 	"packets received by queue" 	628
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[0].mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	ScanRequest_Time 	292.33502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	DissassociateReq_Time 	0
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	AssociateReq_Time 	292.7384903032
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	AuthenticateReq_Time 	292.73502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	AssociateConf_Time 	292.74019331756
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	AuthenticateConf_Time 	292.7384903032
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	ScanConfirm_Time 	292.73502449087
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	SCAN_DELAY 	0.4
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	AUTHENTICATE_DELAY 	0.003465812322
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	ASSOCIATE_DELAY 	0.001703014364
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].agent 	L2_HO_DELAY 	0.405168826686
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].mgmt 	"packets received by queue" 	725
+scalar HIPWirelessNetwork_Multihome.mobilehiphost.wlan[1].mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.hip 	"HIP msg counter" 	6
+scalar HIPWirelessNetwork_Multihome.hipsrv.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].queue 	"packets received by queue" 	1393
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames sent" 	1393
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames rcvd" 	6526
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"bytes sent" 	442878
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"bytes rcvd" 	535574
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames from higher layer" 	1393
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames dropped (not for us)" 	1
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames passed up to HL" 	6525
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames/sec sent" 	4.6433309621391
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"frames/sec rcvd" 	21.753322224637
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"bits/sec sent" 	11810.073968989
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"bits/sec rcvd" 	14281.96604001
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"rx channel idle (%)" 	99.984325821338
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"rx channel utilization (%)" 	0.015674178662387
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].encap 	"packets from higher layer" 	1393
+scalar HIPWirelessNetwork_Multihome.hipsrv.eth[0].encap 	"frames from MAC" 	6525
+scalar HIPWirelessNetwork_Multihome.dnssrv.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].queue 	"packets received by queue" 	9
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames sent" 	9
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames rcvd" 	7447
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"bytes sent" 	582
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"bytes rcvd" 	830338
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames from higher layer" 	9
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames dropped (not for us)" 	1
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames passed up to HL" 	7446
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames/sec sent" 	0.029999984680009
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"frames/sec rcvd" 	24.823320656892
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"bits/sec sent" 	15.519992074458
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"bits/sec rcvd" 	22142.335359315
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"rx channel idle (%)" 	99.976268972119
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"rx channel utilization (%)" 	0.023731027881356
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].encap 	"packets from higher layer" 	9
+scalar HIPWirelessNetwork_Multihome.dnssrv.eth[0].encap 	"frames from MAC" 	7446
+scalar HIPWirelessNetwork_Multihome.rvs.hip 	"HIP msg counter" 	6
+scalar HIPWirelessNetwork_Multihome.rvs.pingApp 	"Pings sent" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].queue 	"packets received by queue" 	12
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].queue 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames sent" 	12
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames rcvd" 	7447
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"bytes sent" 	768
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"bytes rcvd" 	830332
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames from higher layer" 	12
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames passed up to HL" 	7447
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames/sec sent" 	0.039999979573345
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"frames/sec rcvd" 	24.823320656892
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"bits/sec sent" 	20.479989541553
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"bits/sec rcvd" 	22142.175359396
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"rx channel idle (%)" 	99.976269132119
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"rx channel utilization (%)" 	0.023730867881437
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].mac 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].encap 	"packets from higher layer" 	12
+scalar HIPWirelessNetwork_Multihome.rvs.eth[0].encap 	"frames from MAC" 	7447
+scalar HIPWirelessNetwork_Multihome.AP_Home.relayUnit 	"processed frames" 	7822
+scalar HIPWirelessNetwork_Multihome.AP_Home.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.wlan.mgmt 	"packets received by queue" 	10824
+scalar HIPWirelessNetwork_Multihome.AP_Home.wlan.mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames sent" 	462
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames rcvd" 	7360
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"bytes sent" 	135456
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"bytes rcvd" 	813932
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames from higher layer" 	462
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames passed up to HL" 	7360
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames/sec sent" 	1.5399992135738
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"frames/sec rcvd" 	24.533320804985
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"bits/sec sent" 	3612.1581553913
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"bits/sec rcvd" 	21704.842249394
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"rx channel idle (%)" 	99.976725025219
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"rx channel utilization (%)" 	0.023274974780914
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.AP_Home.eth[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.relayUnit 	"processed frames" 	6065
+scalar HIPWirelessNetwork_Multihome.AP_1.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.wlan.mgmt 	"packets received by queue" 	9072
+scalar HIPWirelessNetwork_Multihome.AP_1.wlan.mgmt 	"packets dropped by queue" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames sent" 	19
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames rcvd" 	6046
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"bytes sent" 	4456
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"bytes rcvd" 	397780
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames from higher layer" 	19
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames passed up to HL" 	6046
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames/sec sent" 	0.063333300991129
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"frames/sec rcvd" 	20.153323041704
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"bits/sec sent" 	118.82660598588
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"bits/sec rcvd" 	10607.46124979
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"rx channel idle (%)" 	99.988102726076
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"rx channel utilization (%)" 	0.011897273924459
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.AP_1.eth[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.switch.relayUnit 	"processed frames" 	7933
+scalar HIPWirelessNetwork_Multihome.switch.relayUnit 	"dropped frames" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames sent" 	6526
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames rcvd" 	1393
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"bytes sent" 	535574
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"bytes rcvd" 	442878
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames from higher layer" 	6526
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames passed up to HL" 	1393
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames/sec sent" 	21.753322224637
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"frames/sec rcvd" 	4.6433309621391
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"bits/sec sent" 	14281.96604001
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"bits/sec rcvd" 	11810.073968989
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"rx channel idle (%)" 	99.987892752849
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"rx channel utilization (%)" 	0.012107247150566
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[0] 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames sent" 	7447
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames rcvd" 	9
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"bytes sent" 	830338
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"bytes rcvd" 	582
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames from higher layer" 	7447
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames passed up to HL" 	9
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames/sec sent" 	24.823320656892
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"frames/sec rcvd" 	0.029999984680009
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"bits/sec sent" 	22142.335359315
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"bits/sec rcvd" 	15.519992074458
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"rx channel idle (%)" 	99.999982560009
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"rx channel utilization (%)" 	1.7439991093978e-005
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[1] 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames sent" 	7447
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames rcvd" 	12
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"bytes sent" 	830332
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"bytes rcvd" 	768
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames from higher layer" 	7447
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames passed up to HL" 	12
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames/sec sent" 	24.823320656892
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"frames/sec rcvd" 	0.039999979573345
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"bits/sec sent" 	22142.175359396
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"bits/sec rcvd" 	20.479989541553
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"rx channel idle (%)" 	99.999976960012
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"rx channel utilization (%)" 	2.3039988234247e-005
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[2] 	backoffs 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"simulated time" 	300.00015319999
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"txrate (Mb)" 	100
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"full duplex" 	1
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames sent" 	1411
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames rcvd" 	6519
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"bytes sent" 	444032
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"bytes rcvd" 	535128
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames from higher layer" 	1411
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames from higher layer dropped (iface down)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames dropped (bit error)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames dropped (not for us)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames passed up to HL" 	6519
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"PAUSE frames sent" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"PAUSE frames rcvd" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames/sec sent" 	4.7033309314991
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"frames/sec rcvd" 	21.72998890322
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"bits/sec sent" 	11840.847286608
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"bits/sec rcvd" 	14270.07271275
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"rx channel idle (%)" 	99.984339207997
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"rx channel utilization (%)" 	0.015660792002556
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	"rx channel collision (%)" 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	collisions 	0
+scalar HIPWirelessNetwork_Multihome.switch.mac[3] 	backoffs 	0
