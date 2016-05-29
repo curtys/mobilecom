@@ -8,3 +8,5 @@ mobilecom
 .nedfolders
 out/
 .settings/
+/mipv6/results
+/mipv6/analysis

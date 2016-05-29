@@ -57,46 +57,46 @@ network mIPv6Network
         //**.mgmt.numChannels = 5;
 
         //@display("bgb=799,698");
-        @display("bgb=800, 800");
+        @display("bgb=1000, 800");
     submodules:
         configurator: FlatNetworkConfigurator6 {
             parameters:
-                @display("p=753,53");
+                @display("p=125.424,583.704");
         }
         radioMedium: Ieee80211ScalarRadioMedium {
             parameters:
-                @display("p=753,123");
+                @display("p=125.424,704.304");
         }
         Home_Agent: HomeAgent6 {
             parameters:
-                @display("p=250,325;i=abstract/router");
+                @display("p=482.4,348.936;i=abstract/router");
         }
-        Foreign_Agent: ForeignAgent6 {
+        Foreign_Agent: Router6 {
             parameters:
-                @display("p=550,325");
+                @display("p=783.096,348.936");
         }
         Router: Router6 {
             parameters:
-                @display("p=400,450");
+                @display("p=630.336,472.752");
         }
         MN: WirelessHost6 {
             parameters:
                 @display("p=127,189");
         }
         CN: CorrespondentNode6 {
-            @display("p=400,650");
+            @display("p=630.336,673.752");
         }
         AP_Home: AccessPoint {
             parameters:
-                @display("p=250,250;i=device/accesspoint_s;r=200");
+                @display("p=482.4,273.36002;i=device/accesspoint_s;r=200");
         }
         AP_Foreign: AccessPoint {
             parameters:
-                @display("p=550,250;i=device/accesspoint_s;r=200");
+                @display("p=783.096,273.36002;i=device/accesspoint_s;r=200");
         }
         hub: EtherHub {
             parameters:
-                @display("p=400,500;i=device/hub_s");
+                @display("p=630.336,522.6;i=device/hub_s");
         }
     connections allowunconnected:
 
