@@ -81,7 +81,8 @@ network mIPv6Network
         }
         MN: WirelessHost6 {
             parameters:
-                @display("p=127,189");
+                //@display("p=127,189");
+                @display("p=171.59999,192.4");
         }
         CN: CorrespondentNode6 {
             @display("p=630.336,673.752");
